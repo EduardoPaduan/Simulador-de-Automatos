@@ -13,3 +13,28 @@ Aqui cada linha do arquivo deve conter uma palavra a ser processada pelo autôma
 ### Saída.txt
 Este arquivo será criado automaticamente pelo programa gerando as saídas "Aceito" caso sua palavra for reconhecida pelo autômato, ou "Rejeita" caso sua palavra não for reconhecida pelo autômato. 
 Para cada teste realizado esse arquivo deve ser apagado antes do próximo teste
+
+# Segue um modelo para testes
+## autômato.txt
+0 <br>
+3 <br>
+(0|e|1),(1|d|2),(2|u|3),(3|u|3)
+
+Que corresponde ao seguinte autômato:
+<div align="center">
+<img src="https://user-images.githubusercontent.com/85192052/129608335-d6f244f7-572b-451f-a4af-a03b9567b494.png" width="550px" />
+</div>
+
+## entrada.txt
+edu<br>
+eduu<br>
+eduuu<br>
+eu<br>
+euu<br>
+du<br>
+duu<br>
+
+As saídas esperadas serão:<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/85192052/129608729-cd7f3ab3-e163-4e92-bca6-4e94fdbc5542.png" width="450px" />
+</div>
