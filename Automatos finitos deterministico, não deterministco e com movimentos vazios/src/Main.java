@@ -100,7 +100,6 @@ public class Main {
                                     aux = listaAutomato.get(automato).getNovoEstado();
                                     estadoAtual.add(aux);
                                     novosEstados++;
-                                    System.out.println("Estado add "+aux);
 
                                 }
                                 else {
@@ -108,7 +107,6 @@ public class Main {
                                     fimLista++;
                                     estadoAtual.add(aux);
                                     novosEstados++;
-                                    System.out.println("Est add "+aux);
                                 }
 
                             }//fim do estado atual
