@@ -92,7 +92,6 @@ public class Main {
                                     fimLista++;
                                     aux = listaAutomato.get(automato).getNovoEstado();
                                     estadoAtual.add(aux);
-                                    System.out.println("Estado adicionado "+aux);
 
                                 }
                                 else if (listaAutomato.get(automato).getSimbolo().equals(a[palavra])){//verifica se o simbolo da palavra é igual ao simbolo do estado criado no txt
